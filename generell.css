@@ -37,3 +37,26 @@ nav{
     color: darkgrey;
 
 }
+#bakgrunnsbilde{
+    width: 100vw;
+    height: 500px;
+    object-fit: cover; <!-- Kilde: https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit -->
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+#velkommenTxt{
+    border: 3px solid beige;
+    background-color: #343434;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 80px;
+    height: 200px;
+    width: 800px;
+    position: absolute;
+    color: beige;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 20px;
+}
