@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking</title>
+    <link rel="stylesheet" href="generell.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html"> <img src="bilderOgDiv/Logo.jpg" height="55px" style="border-radius: 30px"></a>
+        <h3><a href="booking.html" style="text-decoration:none; color:darkgrey">Booking</a> </h3>
+        <h3><a href="meny.html" style="text-decoration:none; color:darkgrey">Meny</a> </h3>
+        <h3><a href="accessebility.html" style="text-decoration:none; color:darkgrey">Accessibility</a> </h3>
+        <h3><a href="topical.html" style="text-decoration:none; color:darkgrey">Topic</a> </h3>
+    </nav>
+</header>
+
+<main>
+    <h3>Book en event hos oss!</h3>
+
+    <div id="bookEvent">
+       <!--  <label class="event" for="typeEvent">Type event</label> -->
+        <input
+                class="event"
+                type="text"
+                id="typeEvent"
+                placeholder="Hva slags event ønsker du å booke?"
+                required>
+
+        <!--<label class="event" for="dagEvent">Hvilken dag?</label> -->
+        <select class="event" id="dagEvent" required>
+            <option value="">Hvilken dag ønsker du å booke?</option>
+            <option value="mandag">Mandag</option>
+            <option value="tirsdag">Tirsdag</option>
+            <option value="onsdag">Onsdag</option>
+            <option value="torsdag">Torsdag</option>
+            <option value="fredag">Fredag</option>
+            <option value="lørdag">Lørdag</option>
+            <option value="søndag">Søndag</option>
+        </select>
+
+        <!-- <label class="event" for="tidspunkt">Hvilket tidspunkt?</label> -->
+        <select class="event" id="tidspunkt" required>
+            <option value="">Hvilket tidspunkt ønsker du å booke?</option>
+            <option value="10:00">10:00</option>
+            <option value="11:00">11:00</option>
+            <option value="12:00">12:00</option>
+            <option value="13:00">13:00</option>
+            <option value="14:00">14:00</option>
+            <option value="15:00">15:00</option>
+            <option value="16:00">16:00</option>
+            <option value="17:00">17:00</option>
+            <option value="18:00">18:00</option>
+            <option value="19:00">19:00</option>
+        </select>
+
+        <!--Hvor mange skal være på eventen?</label> -->
+        <input
+                class="event"
+                type="number"
+                id="antallPersoner"
+                placeholder="Skriv inn hvor mange som skal delta på eventen"
+                required
+                min="2"
+                max="30">
+
+        <!--<label class="event" for="kontaktperson">Kontaktperson</label> -->
+        <input
+                class="event"
+                type="text"
+                id="kontaktperson"
+                placeholder="Skriv inn ditt navn">
+
+        <!--<label class="event" for="telefon">Telefonnummer</label> -->
+        <input
+                class="event"
+                type="number"
+                id="telefon"
+                placeholder="Skriv inn ditt telefonnummer"
+                required
+                min="10000000"
+                max="99999999">
+
+        <button class="event" id="registrerButton">Registrer</button>
+    </div>
+</main>
+
+<footer>
+    <div><img src="bilderOgDiv/Logo.jpg" height="55px" style="border-radius: 30px"></div>
+    <div>
+        <p>kontakt oss:</p>
+        <p>Tlf: 999 99 999</p>
+        <p>E-post: xxxxx@gmail.com</p>
+    </div>
+    <div>
+        <p>Adresse:</p>
+        <p>Kirkeveien</p>
+        <p>0364 Oslo</p>
+    </div>
+    <div>
+        <p>Følg oss:</p>
+        <a href="http://twitter.com"> <img src="bilderOgDiv/twitter.jpg" height="45px" style="border-radius: 50%"></a>
+        <a href="http://facebook.com"><img src="bilderOgDiv/facebook.jpg" height="45px" style="border-radius: 50%"></a>
+        <a href="http://instagram.com"><img src="bilderOgDiv/insta.jpg"height="45px" style="border-radius: 50%"></a>
+    </div>
+
+</footer>
+</body>
+</html>
