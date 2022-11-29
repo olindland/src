@@ -5,7 +5,7 @@
     <title>Meny</title>
   <link rel="stylesheet" href="generell.css">
 </head>
-<body>
+<body id="menykropp">
 <header>
   <nav>
     <a href="index.html"> <img src="bilderOgDiv/Logo.jpg" height="55px" style="border-radius: 30px"></a>
@@ -16,158 +16,13 @@
   </nav>
 </header>
 
-<main>
-  <!-- Lager en div "lunsj" med klasse "måltider". Denne inneholder et bilde relevant til maten og div'er til de forskjellige rettene-->
-  <div id="lunsj" class="måltider">
-    <div class="wallpaper">
-      <img src="bilderOgDiv/sandwich.webp" width="100%" alt="">
-    </div>
-    <!-- For hver individuelle matrett er en div som inneholder fet tekst for matrettens navn og pris.
-     Og en italic tekst for eventuelle allergener.-->
-    <h1 class="måltidsnavn">Lunsj</h1>
-    <div class="salgsvare">
-      <b>Karbonadesmørbrød med remulade</b>
-      <b class="pris">185 kr</b>
-      <i>(Allergener: Egg)</i>
-    </div>
-
-    <div class="salgsvare">
-      <b>Skagensmørbrød med reker</b>
-      <b class="pris">185 kr</b>
-      <i>(Allergener: Egg, laktose, skalldyr)</i>
-    </div>
-
-    <div class="salgsvare">
-      <b>Roastbeefsmørbrød med remulade</b>
-      <b class="pris">169 kr</b>
-      <i>(Allergener: egg)</i>
-    </div>
-
-    <div class="salgsvare">
-      <b>Foccacia med kylling og kurrysalat</b>
-      <b class="pris">185 kr</b>
-      <i>(Allergener: Egg og stangselleri)</i>
-    </div>
-  </div>
-
-  <!-- Her opprettes et nytt måltid "middag". Denne inneholder også en beskrivelse av retten-->
-  <div id="middag" class="måltider">
-    <div class="wallpaper">
-      <img src="bilderOgDiv/spekeskinke.jpg" width="100%" alt="">
-    </div>
-
-    <h1 class="måltidsnavn">Middag</h1>
-    <div class="salgsvare">
-      <b>To valgfrie smørbrød og gulrot/ingefær suppe med kylling</b>
-      <b class="pris">259 kr</b>
-      <i>Karbonadesmørbrød
-        Skagensmørbrød
-        Roastbeefsmørbrød
-        Foccacia med kylling/kurrysalat
-        (Allergener: Egg, laktose, stangselleri og fisk- og skalldyr)</i>
-    </div>
-
-    <div class="salgsvare">
-      <b>Tinn spekefjøl</b>
-      <b class="pris">219 kr</b>
-      <i>Med utsøkt spekemat og modne oster
-        (Allergener: Laktose)</i>
-    </div>
-
-    <div class="salgsvare">
-      <b>Liten tapasfjøl</b>
-      <b class="pris">149 kr</b>
-      <i>Med kylling, spekeskinke, salat, rød og pesto
-        (Allergener: laktose)</i>
-    </div>
-
-    <div class="salgsvare">
-      <b>Gresk salat med rømmedressing</b>
-      <b class="pris">219 kr</b>
-      <i>Valgfri med kylling eller spekeskinke
-        (Allergener: Laktose)</i>
-    </div>
-  </div>
-
-  <div id="snacks" class="måltider">
-    <div class="wallpaper">
-      <img src="bilderOgDiv/brownie.jpg" width="100%" alt="">
-    </div>
-
-    <h1 class="måltidsnavn">Snacks</h1>
-    <div class="salgsvare">
-      <b>Brownies</b>
-      <b class="pris">46 kr</b>
-      <i>Glutenfritt</i>
-    </div>
-
-    <div class="salgsvare">
-      <b>Brownies med nøtter</b>
-      <b class="pris">45 kr</b>
-      <i><Glutenfritt></Glutenfritt></i>
-    </div>
-
-    <div class="salgsvare">
-      <b>Gulrotkake</b>
-      <b class="pris">46 kr</b>
-    </div>
-
-    <div class="salgsvare">
-      <b>Islandskake</b>
-      <b class="pris">49 kr</b>
-    </div>
-
-    <div class="salgsvare">
-      <b>Kanelbolle</b>
-      <b class="pris">39 kr</b>
-    </div>
-
-    <div class="salgsvare">
-      <b>Eplekake</b>
-      <b class="pris">46 kr</b>
-    </div>
-  </div>
-
-  <div id="kaffe" class="måltider">
-    <div class="wallpaper">
-      <img src="bilderOgDiv/coffee.jpg" width="100%" alt="">
-    </div>
-
-    <h1 class="måltidsnavn">Kaffe</h1>
-    <div class="salgsvare">
-      <b>Kaffe</b>
-      <b class="pris">39 kr</b>
-    </div>
-
-    <div class="salgsvare">
-      <b>Cafe latte</b>
-      <b class="pris">49 kr</b>
-    </div>
-
-    <div class="salgsvare">
-      <b>Is-latte</b>
-      <b class="pris">49 kr</b>
-    </div>
-
-    <div class="salgsvare">
-      <b>Cappechino</b>
-      <b class="pris">46 kr</b>
-    </div>
-
-    <div class="salgsvare">
-      <b>Is-mocca</b>
-      <b class="pris">59 kr</b>
-    </div>
-
-    <div class="salgsvare">
-      <b>Amerikano</b>
-      <b class="pris">47 kr</b>
-    </div>
-
-    <div class="salgsvare">
-      <b>Espresso</b>
-      <b class="pris">40 kr</b>
-    </div>
+<main id="menyside">
+  <h1>Meny</h1>
+  <div>
+      <a href="meny.html">Forrett</a>
+      <a href="meny.html">Hovedrett</a>
+      <a href="meny.html">Dessert</a>
+      <a href="meny.html">Kaffe</a>
   </div>
 
 </main>

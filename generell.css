@@ -1,3 +1,7 @@
+:root {
+    font-size: 16px;
+    font-family: Helvetica;
+}
 body{
     background-color: #343434;
     margin: 0;
@@ -15,6 +19,7 @@ header nav{
     top: 0;
     width: 100%;
     height: 70px;
+    z-index: 1;
 }
 
 main{
@@ -80,10 +85,11 @@ nav{
 #omOss h3 {
     font-size: 40px;
 }
+/* dette er sigve som fikser menysiden
 .måltider {
     margin: 0 auto;
     width: 700px;
-    border: 5px solid saddlebrown;
+    gap: 5px solid saddlebrown;
     background-color: sandybrown;
 }
 .salgsvare {
@@ -101,6 +107,30 @@ nav{
 .måltidsnavn {
     text-align: center;
 }
+ */
+#menykropp{
+    background-color: #c4923e;
+}
+#menyside div{
+    margin-top: 15%;
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+#menyside div @media  {
+    
+}
+#menyside div a{
+    background-color: white;
+    text-decoration: none;
+    color: #3B1C0A;
+    border-radius: 1rem;
+    padding: 10px;
+    text-align: center;
+}
+
 #bookEvent{
     display: grid;
     grid-template-columns: 1fr;
