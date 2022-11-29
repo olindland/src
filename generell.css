@@ -1,12 +1,16 @@
+:root {
+    font-size: 16px;
+    font-family: Helvetica;
+}
 body{
     background-color: #343434;
-    min-height: 100vh;
     margin: 0;
-
 }
-header{
+header {
+    height: 70px;
+}
+header nav{
     background-color: #4e4e4e;
-    min-height: 50px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -15,15 +19,14 @@ header{
     top: 0;
     width: 100%;
     height: 70px;
-
+    z-index: 1;
 }
 
 main{
     display: flex;
-    margin-top: 80px;
+    margin-top: 0px;
     margin-bottom: 55px;
     align-items: center;
-    position: center;
     flex-direction: column;
     justify-content: space-evenly;
 }
@@ -47,3 +50,121 @@ nav{
     color: darkgrey;
 
 }
+#forside{
+    position: static;
+}
+
+#bakgrunnsbilde{
+    width: 98vw;
+    height: 500px;
+    object-fit: cover; <!--  Kilde: https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit -->
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+#velkommenTxt{
+    border: 3px solid beige;
+    background-color: #343434;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 80px;
+    height: 200px;
+    width: 800px;
+    position: absolute;
+    color: beige;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+    line-height: 2.5;
+    border-radius: 20px;
+}
+#omOss {
+    color: beige;
+    text-align: center;
+    width: 80%;
+}
+#omOss h3 {
+    font-size: 40px;
+}
+/* dette er sigve som fikser menysiden
+.måltider {
+    margin: 0 auto;
+    width: 700px;
+    gap: 5px solid saddlebrown;
+    background-color: sandybrown;
+}
+.salgsvare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    min-height: 55px;
+    border-bottom: 2.5px solid saddlebrown;
+    border-top: 2.5px solid saddlebrown;
+}
+.pris {
+    float: right;
+    text-align: right;
+}
+.måltidsnavn {
+    text-align: center;
+}
+ */
+#menykropp{
+    background-color: #c4923e;
+}
+#menyside div{
+    margin-top: 15%;
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+#menyside div @media  {
+
+}
+#menyside div a{
+    background-color: white;
+    text-decoration: none;
+    color: #3B1C0A;
+    border-radius: 1rem;
+    padding: 10px;
+    text-align: center;
+}
+
+#bookEvent{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.event{
+    border: 2px solid saddlebrown;
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    background-color: beige;
+    text-align: center;
+    line-height: 50px;
+    margin: 2px;
+}
+#registrerButton{
+    background-color: rosybrown;
+    width: 100%;
+}
+
+/*CSS for iPhone*/
+@media screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+    }
+    footer{
+        background-color: #4e4e4e;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        position: fixed;
+        bottom: 0;
+        widtH:100%;
+        height: 100px;
+    }
+}
+
