@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Booking</title>
     <link rel="stylesheet" href="generell.css">
+    <link rel="script" href="booking.js">
 </head>
 <body>
 <header>
@@ -19,17 +20,15 @@
 <main>
     <h3>Book en event hos oss!</h3>
 
-    <div id="bookEvent">
-       <!--  <label class="event" for="typeEvent">Type event</label> -->
-        <input
-                class="event"
-                type="text"
-                id="typeEvent"
-                placeholder="Hva slags event ønsker du å booke?"
-                required>
+    <form id="bookEvent">
+        <select class="booking" id="typeEvent" required>
+            <option value="">Hva slags event ønsker du å booke?</option>
+            <option value="bryllup">Bryllup</option>
+            <option value="middag">Middag</option>
+            <option value="fest">Fest</option>
+        </select>
 
-        <!--<label class="event" for="dagEvent">Hvilken dag?</label> -->
-        <select class="event" id="dagEvent" required>
+        <select class="booking" id="dagEvent" required>
             <option value="">Hvilken dag ønsker du å booke?</option>
             <option value="mandag">Mandag</option>
             <option value="tirsdag">Tirsdag</option>
@@ -40,8 +39,7 @@
             <option value="søndag">Søndag</option>
         </select>
 
-        <!-- <label class="event" for="tidspunkt">Hvilket tidspunkt?</label> -->
-        <select class="event" id="tidspunkt" required>
+        <select class="booking" id="tidspunkt" required>
             <option value="">Hvilket tidspunkt ønsker du å booke?</option>
             <option value="10:00">10:00</option>
             <option value="11:00">11:00</option>
@@ -55,26 +53,23 @@
             <option value="19:00">19:00</option>
         </select>
 
-        <!--Hvor mange skal være på eventen?</label> -->
         <input
-                class="event"
+                class="booking"
                 type="number"
                 id="antallPersoner"
                 placeholder="Skriv inn hvor mange som skal delta på eventen"
                 required
-                min="2"
-                max="30">
+                min="1"
+                max="50">
 
-        <!--<label class="event" for="kontaktperson">Kontaktperson</label> -->
         <input
-                class="event"
+                class="booking"
                 type="text"
                 id="kontaktperson"
                 placeholder="Skriv inn ditt navn">
 
-        <!--<label class="event" for="telefon">Telefonnummer</label> -->
         <input
-                class="event"
+                class="booking"
                 type="number"
                 id="telefon"
                 placeholder="Skriv inn ditt telefonnummer"
@@ -82,8 +77,8 @@
                 min="10000000"
                 max="99999999">
 
-        <button class="event" id="registrerButton">Registrer</button>
-    </div>
+        <button class="booking" id="registrerButton">Registrer</button>
+    </form>
 </main>
 
 <footer>
