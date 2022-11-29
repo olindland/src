@@ -112,25 +112,32 @@ nav{
     background-color: #c4923e;
 }
 #menyside div{
-    margin-top: 15%;
     font-size: 3rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
     align-items: center;
 }
-#menyside div @media  {
-    
+#menyside p{
+    font-size: 50px;
 }
 #menyside div a{
-    background-color: white;
+    background-color: #965015;
     text-decoration: none;
     color: #3B1C0A;
     border-radius: 1rem;
-    padding: 10px;
     text-align: center;
+    display: grid;
+    padding: 30px;
 }
-
+#menyside div a:hoover{
+    text-decoration-color: black;
+}
+@media (max-width: 600px) {
+    #menyside body {
+        background-color: lightblue;
+    }
+}
 #bookEvent{
     display: grid;
     grid-template-columns: 1fr;
