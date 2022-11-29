@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
   }
@@ -7,19 +8,24 @@
     padding: 20px;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(bilderOgDiv/computer.jpg);
   }
+
+  .logo {
+    width: 7%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
-  /* Header/Blog Title */
+
   .header {
     padding: 30px;
     font-size: 40px;
     color: white;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 
   }
   
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
   .column {
     width: 50%;
     margin-left: 25%;
@@ -32,17 +38,14 @@
   .heading {
     font-size: 35px;
     text-align: center;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
-
-
-  img {
+    img {
     width: 100%;
     height: auto;
   }
   
-  /* Add a card effect for articles */
   .card {
     background-color: white;
     padding: 20px;
@@ -51,16 +54,15 @@
   }
   
   
-  /* Footer */
   .footer {
     padding: 20px;
     background: #ddd;
     margin-top: 20px;
     border-radius: 25px;
     line-height: 2;
+    font-family: 'Montserrat', sans-serif;
   }
   
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
     .column {
       width: 100%;
