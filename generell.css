@@ -1,6 +1,6 @@
 :root {
     font-size: 16px;
-    font-family: Helvetica ;
+    font-family: Helvetica;
 }
 body{
     background-color: #343434;
@@ -110,33 +110,25 @@ nav{
  */
 #menykropp{
     background-color: #c4923e;
-    color: #3B1C0A;
 }
-
 #menyside div{
-
+    margin-top: 15%;
     font-size: 3rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 3rem;
     align-items: center;
 }
-#menyside p {
-    font-size: 70px;
+#menyside div @media  {
+    
 }
-
 #menyside div a{
-    display: grid;
-    background-color: #965015;
+    background-color: white;
     text-decoration: none;
     color: #3B1C0A;
-    border-radius: 5px;
-    padding: 20px;
+    border-radius: 1rem;
+    padding: 10px;
     text-align: center;
-}
-#menyside div a:hover{
-    background-color: #3B1C0A;
-    color: #c4923e;
 }
 
 #bookEvent{
