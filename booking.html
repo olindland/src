@@ -2,18 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
     <link rel="stylesheet" href="generell.css">
+    <link rel="stylesheet" href="mediaQuerryForMobil.css">
 </head>
 <body>
 <header>
     <nav>
         <a href="index.html"> <img src="bilderOgDiv/Logo.jpg" height="55px" style="border-radius: 30px"></a>
-        <h3><a href="booking.html" style="text-decoration:none; color:darkgrey">Booking</a> </h3>
-        <h3><a href="meny.html" style="text-decoration:none; color:darkgrey">Meny</a> </h3>
-        <h3><a href="accessebility.html" style="text-decoration:none; color:darkgrey">Accessibility</a> </h3>
-        <h3><a href="topical.html" style="text-decoration:none; color:darkgrey">Topic</a> </h3>
+        <a href="booking.html" style="text-decoration:none; color:darkgrey"><h3>Booking</h3></a>
+        <a href="meny.html" style="text-decoration:none; color:darkgrey"><h3>Meny</h3></a>
+        <a href="accessebility.html" style="text-decoration:none; color:darkgrey"><h3>Accessibility</h3></a>
+        <a href="topical.html" style="text-decoration:none; color:darkgrey"><h3>Topic</h3></a>
     </nav>
+    <div id="sidebar" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Hjem</a>
+            <a href="booking.html">Booking</a>
+            <a href="meny.html">Meny</a>
+            <a href="accessebility.html">Accessibility</a>
+            <a href="topical.html">Topic</a>
+        </div>
+    </div>
+    <span id="sidebarKnapp" style="font-size:40px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+
+    <script>
+        function openNav() {
+            document.getElementById("sidebar").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0%";
+        }
+    </script>
 </header>
 
 <main>
@@ -85,7 +108,7 @@
     <div>
         <p>kontakt oss:</p>
         <p>Tlf: 999 99 999</p>
-        <p>E-post: xxxxx@gmail.com</p>
+        <p>E-post: <a style="color: black" href="mailto:xxxxx@gmail.com"> xxxxx@gmail.com </a></p>
     </div>
     <div>
         <p>Adresse:</p>
