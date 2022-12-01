@@ -6,11 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Topical Page</title>
     <link rel="stylesheet" href="topical_style.css">
+    <link rel="stylesheet" href="mediaQuerryForMobil.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
 </head>
+<header>
+    <div id="sidebar" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Hjem</a>
+            <a href="booking.html">Booking</a>
+            <a href="meny.html">Meny</a>
+            <a href="accessebility.html">Accessibility</a>
+            <a href="topical.html">Topic</a>
+        </div>
+    </div>
+    <span id="sidebarKnapp" style="font-size:40px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+
+    <script>
+        function openNav() {
+            document.getElementById("sidebar").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0%";
+        }
+    </script>
+</header>
 <body>
     <div class="logo"><a href="index.html"> <img src="bilderOgDiv/Logo.jpg" style="border-radius: 30px;"></a></div>
     <div class="header">
