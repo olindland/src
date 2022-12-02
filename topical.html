@@ -11,14 +11,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
 </head>
+<header>
+    <div id="sidebar" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Hjem</a>
+            <a href="booking.html">Booking</a>
+            <a href="meny.html">Meny</a>
+            <a href="accessebility.html">Accessibility</a>
+            <a href="topical.html">Topic</a>
+        </div>
+    </div>
+    <span id="sidebarKnapp" style="font-size:40px;cursor:pointer;" onclick="openNav()">&#9776; </span>
+
+    <script>
+        function openNav() {
+            document.getElementById("sidebar").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0%";
+        }
+    </script>
+</header>
 <body>
     <div class="logo"><a href="index.html"> <img src="bilderOgDiv/Logo.jpg" style="border-radius: 30px;"></a></div>
     <div class="header">
         <h2>The Interplay Between Technology and Society</h2>
-      </div>
-      
-      <div class="row">
+    </div>
+      <div>
         <div class="column">
+            <div class="intro">
+                <p>This page contains two short texts which discuss the interplay between technology and society. The first text mentions some political consequences that technology and in particular social media and online news brings along. The second text tries to give an answer to the statement that "the person who invented the train, also invented the train crash". If you want to read more about these topics, we have provided links at the bottom of the page which lead you to external sites containing relevant information. In case you are hungry or want a cup of coffee, we recommend clicking the button on the very top of the page. </p>
+            </div>          
           <div class="card">
             <h2 class="heading">Technology and Political Consequences</h2>
 

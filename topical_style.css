@@ -4,10 +4,11 @@
   }
   
   body {
-    font-family: Arial;
     padding: 20px;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(bilderOgDiv/computer.jpg);
+    background: linear-gradient(180.2deg, rgb(7, 44, 81) 6.8%, rgb(0, 0, 0) 131%);
   }
+
+  
 
   .logo {
     width: 120px;
@@ -18,7 +19,6 @@
   
 
   .header {
-    padding: 30px;
     font-size: 35px;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -31,8 +31,14 @@
     margin-left: 25%;
   }
 
+  .intro{
+    color: white;
+    margin-bottom: 50px;  
+  }
+
   p {
     line-height: 2;
+    font-family: Arial;
   }
 
   .heading {
