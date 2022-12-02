@@ -130,7 +130,7 @@ nav{
     display: grid;
     padding: 30px;
 }
-#menyside div a:hoover{
+#menyside div a:hover{
     text-decoration-color: black;
 }
 @media (max-width: 600px) {
@@ -141,6 +141,19 @@ nav{
 #bookEvent{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+#registrerButton{
+    background-color: rosybrown;
+    width: 200%;
+}
+@media (max-width: 1100px){
+    #bookEvent{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #registrerButton{
+        width: 100%;
+    }
 }
 .booking{
 
@@ -156,8 +169,32 @@ nav{
     text-align: center;
     margin: 2px;
 }
-#registrerButton{
-    background-color: rosybrown;
-    width: 200%;
+.sammenkomst{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+    background-color: rgb(40, 40, 40);
+    color: beige;
+    margin-bottom: 100px;
 }
+.sammenkomst p{
+    width: 400px;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+}
+.sammenkomstImg{
+    display: block;
+    border: rosybrown 3px solid;
+    margin: auto;
+    height: 200px;
+}
+#eventStorTxt{
+    color: beige;
+}
+#storSammenkomstTxt{
+    text-align: right;
+}
+@media screen {
 
+}
