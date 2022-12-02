@@ -169,6 +169,7 @@ nav{
     text-align: center;
     margin: 2px;
 }
+
 .sammenkomst{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -177,6 +178,7 @@ nav{
     color: beige;
     margin-bottom: 100px;
 }
+
 .sammenkomst p{
     width: 400px;
     font-size: 25px;
@@ -195,6 +197,20 @@ nav{
 #storSammenkomstTxt{
     text-align: right;
 }
-@media screen {
-
+@media (max-width: 600px) {
+    .booking{
+        width: 300px;
+        font-size: 15px;
+    }
+    .sammenkomst{
+        width: 400px;
+        height: 200px;
+    }
+    .sammenkomst p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .sammenkomstImg{
+        height: 100px;
+    }
 }
