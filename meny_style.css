@@ -9,15 +9,12 @@ html{
     height: 600px;
     width: 100%;
     overflow: hidden;
+    justify-items: center;
 }
 .sider:nth-of-type(even){
     background-color: darkgray;
 }
-#første{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    align-content: center;
-}
+
 /* Her er en del av linjene lært og delvis kopiert (men tilpasset eget behov
 fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
 .matmeny{
@@ -26,9 +23,11 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
     margin: 2em 2em;
     min-width: 80vw;
     text-align: left;
-    border-radius: 5px 5px 0 0;
+    border-radius: 20px 20px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px grey;
+    margin-left: auto;
+    margin-right: auto;
 }
 .matmeny thead tr{
     background-color: #092c3e;
@@ -56,16 +55,16 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
 }
 #menyside #menymeny{
     font-size: 3rem;
+    margin: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 3rem;
+    gap: 1rem;
     align-items: center;
     position: relative;
     bottom: 60%;
+    margin-bottom: 100px;
 }
-#menyside p{
-    font-size: 4rem;
-}
+
 #menyside div a{
     text-decoration: none;
     color: darkgray;

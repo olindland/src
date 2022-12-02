@@ -12,8 +12,7 @@
         z-index: 1;
     }
 
-
-    .overlay {
+        .overlay {
         height: 100%;
         width: 0;
         position: fixed;
@@ -113,7 +112,7 @@
     #footerTilMobil{
         visibility: hidden;
     }
-
-
-
+    .sider{
+        padding-top: 70px;
+    }
 }
