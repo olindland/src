@@ -1,5 +1,8 @@
 /*Extra small devices (phones, 767px and down)*/
 @media only screen and (max-width: 767px) {
+    header{
+        height: 2px;
+    }
 
     header nav{
         visibility: hidden;
@@ -99,6 +102,9 @@
 
 /*Medium devices (landscape tablets, from 767px and up)*/
 @media only screen and (min-width: 768px) {
+    #logoen{
+        visibility: hidden;
+    }
     #sidebar{
         visibility: hidden;}
     #sidebarKnapp{

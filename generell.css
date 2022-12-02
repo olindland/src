@@ -108,59 +108,7 @@ nav{
 #omOss h3 {
     font-size: 40px;
 }
-/* dette er sigve som fikser menysiden
-.måltider {
-    margin: 0 auto;
-    width: 700px;
-    gap: 5px solid saddlebrown;
-    background-color: sandybrown;
-}
-.salgsvare {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: auto;
-    min-height: 55px;
-    border-bottom: 2.5px solid saddlebrown;
-    border-top: 2.5px solid saddlebrown;
-}
-.pris {
-    float: right;
-    text-align: right;
-}
-.måltidsnavn {
-    text-align: center;
-}
- */
-#menykropp{
-    background-color: #c4923e;
-}
-#menyside div{
-    font-size: 3rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-}
-#menyside p{
-    font-size: 50px;
-}
-#menyside div a{
-    background-color: #965015;
-    text-decoration: none;
-    color: #3B1C0A;
-    border-radius: 1rem;
-    text-align: center;
-    display: grid;
-    padding: 30px;
-}
-#menyside div a:hover{
-    text-decoration-color: black;
-}
-@media (max-width: 600px) {
-    #menyside body {
-        background-color: lightblue;
-    }
-}
+
 #bookEvent{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -219,7 +167,4 @@ nav{
 }
 #storSammenkomstTxt{
     text-align: right;
-}
-@media (max-width: 600px) {
-
 }
