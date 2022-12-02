@@ -31,7 +31,10 @@ main{
     justify-content: space-evenly;
 }
 #footerTilPc:hover{
-    height: 130px;
+    height: 155px;
+}
+#footerTilPc:hover #span{
+    rotate: 180deg;
 }
 #footerTilPc{
     background-color: #4e4e4e;
@@ -46,6 +49,11 @@ main{
     transition: height 1s;
     color: beige;
     padding: 5px;
+}
+#span{
+    background-color: red;
+    grid-column:span 4;
+    transition: 0.5s;
 }
 #footerTilMobil{
     background-color: #4e4e4e;
