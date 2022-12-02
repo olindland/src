@@ -6,10 +6,66 @@
   body {
     font-family: Arial;
     padding: 20px;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(bilderOgDiv/computer.jpg);
+    background-color: background-color: #f8fd9f;
+    background-image: linear-gradient(135deg, #f8fd9f 0%, #cfd1f7 100%);
   }
+input[type="checkbox"]{
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+}
+.check{
+  position: relative;
+  z-index: -1;
+  display: block;
+  width: 100px;
+  height: 50px;
+  background-color: #03100b;
+  background-image: linear-gradient(344deg, #03100b 0%, #1f7d8a 100%);
 
-  .logo {
+  cursor: pointer;
+  border-radius: 40px;
+  overflow: hidden;
+  transition: ease-in-out 0.3s;
+}
+input[type="checkbox"]:checked~.check{
+  background-color: background-color: #f8fd9f;
+  background-image: linear-gradient(135deg, #f8fd9f 0%, #cfd1f7 100%);
+  box-shadow: 0 0 0 5000px #092c3e;
+}
+.check:before{
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background-color: background-color: #f8fd9f;
+  background-image: linear-gradient(135deg, #f8fd9f 0%, #cfd1f7 100%);
+  width: 46px;
+  height: 46px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+input[type="checkbox"]:checked~.check:before{
+  transform: translateX(-50px);
+}
+.check:after{
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-color: #03100b;
+  background-image: linear-gradient(344deg, #03100b 0%, #1f7d8a 100%);
+  width: 46px;
+  height: 46px;
+  border-radius: 50px;
+  transition: 0.3s;
+  transform: translateX(50px);
+}
+input[type="checkbox"]:checked~.check:after{
+  transform: translateX(0px);
+}
+
+.logo {
     width: 120px;
     display: block;
     margin-left: auto;
@@ -23,7 +79,6 @@
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-
   }
   
   .column {
@@ -40,7 +95,7 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
   }
-  
+
     img {
     width: 100%;
     height: auto;
