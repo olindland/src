@@ -78,6 +78,27 @@
         widtH: 100%;
         height: 150px;
     }
+    .booking{
+        width: 300px;
+        font-size: 15px;
+    }
+    .sammenkomst{
+        width: 400px;
+        height: 200px;
+    }
+    .sammenkomst p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .sammenkomstImg{
+        height: 100px;
+    }
+    #velkommenTxt{
+        width: 90%;
+        font-size: 30px;
+        border-radius: 10px;
+        height: 70px;
+    }
 }
 
 /*Medium devices (landscape tablets, from 767px and up)*/
