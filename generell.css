@@ -83,7 +83,7 @@ nav{
     background: rgba(0, 0, 0, 0.5);
     font-size: 80px;
     height: 200px;
-    width: 800px;
+    width: 90%;
     position: absolute;
     color: beige;
     top: 10%;
@@ -214,25 +214,5 @@ nav{
     text-align: right;
 }
 @media (max-width: 600px) {
-    .booking{
-        width: 300px;
-        font-size: 15px;
-    }
-    .sammenkomst{
-        width: 400px;
-        height: 200px;
-    }
-    .sammenkomst p{
-        width: 200px;
-        font-size: 10px;
-    }
-    .sammenkomstImg{
-        height: 100px;
-    }
-    #velkommenTxt{
-        width: 100%;
-        font-size: 30px;
-        border-radius: 10px;
-        height: 70px;
-    }
+
 }
