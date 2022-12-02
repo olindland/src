@@ -104,6 +104,9 @@
     #logoTilMobil{
         visibility: hidden;
     }
+    #logoTilMobil::before{
+        visibility: hidden;
+    }
     #sidebar{
         visibility: hidden;}
     #sidebarKnapp{
