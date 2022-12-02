@@ -21,6 +21,21 @@ header nav{
     height: 70px;
     z-index: 1;
 }
+
+header h3::after{
+    content: '';
+    background: #ffffff;
+    transition: 0.5s;
+    margin: auto;
+    height: 2px;
+    width: 0%;
+    display: block;
+}
+
+header h3:hover::after{
+    width: 100%;
+}
+
 nav a{
     text-decoration: none;
     color: beige;
