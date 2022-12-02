@@ -21,6 +21,10 @@ header nav{
     height: 70px;
     z-index: 1;
 }
+nav a{
+    text-decoration: none;
+    color: beige;
+}
 
 main{
     display: flex;
@@ -46,6 +50,9 @@ main{
     transition: height 1s;
     color: beige;
     padding: 5px;
+}
+footer a{
+    color: beige;
 }
 #footerTilMobil{
     background-color: #4e4e4e;
