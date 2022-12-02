@@ -30,10 +30,10 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
 }
-footer:hover{
+#footerTilPc:hover{
     height: 150px;
 }
-footer{
+#footerTilPc{
     background-color: #4e4e4e;
     display: grid;
     align-items: center;
@@ -45,6 +45,21 @@ footer{
     height: 45px;
     transition: height 1s;
     color: beige;
+    padding: 5px;
+}
+#footerTilMobil{
+    background-color: #4e4e4e;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+    bottom: 0;
+    widtH: 100%;
+    height: 150px;
+    color: beige;
+    padding: 5px;
 }
 nav{
     text-decoration: none;
