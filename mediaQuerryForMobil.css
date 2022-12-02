@@ -101,7 +101,7 @@
 
 /*Medium devices (landscape tablets, from 767px and up)*/
 @media only screen and (min-width: 768px) {
-    #logoen{
+    #logoTilMobil{
         visibility: hidden;
     }
     #sidebar{

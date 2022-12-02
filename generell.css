@@ -22,25 +22,6 @@ header nav{
     z-index: 1;
 }
 
-header h3::after{
-    content: '';
-    background: #ffffff;
-    transition: 0.5s;
-    margin: auto;
-    height: 2px;
-    width: 0%;
-    display: block;
-}
-
-header h3:hover::after{
-    width: 100%;
-}
-
-nav a{
-    text-decoration: none;
-    color: beige;
-}
-
 main{
     display: flex;
     margin-top: 0px;
@@ -50,173 +31,7 @@ main{
     justify-content: space-evenly;
 }
 #footerTilPc:hover{
-    height: 150px;
-}
-#footerTilPc{
-    background-color: #4e4e4e;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    position: fixed;
-    bottom: 0;
-    widtH:100%;
-    height: 45px;
-    transition: height 1s;
-    color: beige;
-    padding: 5px;
-}
-footer a{
-    color: beige;
-}
-#footerTilMobil{
-    background-color: #4e4e4e;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    justify-content: space-evenly;
-    grid-template-columns: 1fr 1fr 1fr;
-    position: fixed;
-    bottom: 0;
-    widtH: 100%;
-    height: 150px;
-    color: beige;
-    padding: 5px;
-}
-nav{
-    text-decoration: none;
-    color: darkgrey;
-
-}
-#forside{
-    position: static;
-}
-
-#bakgrunnsbilde{
-    width: 98vw;
-    height: 500px;
-    object-fit: cover; /*  Kilde: https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit */
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-}
-#velkommenTxt{
-    border: 3px solid beige;
-    background-color: #343434;
-    background: rgba(0, 0, 0, 0.5);
-    font-size: 80px;
-    height: 200px;
-    width: 90%;
-    position: absolute;
-    color: beige;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -10%);
-    text-align: center;
-    line-height: 2.5;
-    border-radius: 20px;
-}
-#omOss {
-    color: beige;
-    text-align: center;
-    width: 80%;
-}
-#omOss h3 {
-    font-size: 40px;
-}
-
-#bookEvent{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-#registrerButton{
-    background-color: rosybrown;
-    width: 200%;
-}
-@media (max-width: 1100px){
-    #bookEvent{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #registrerButton{
-        width: 100%;
-    }
-}
-.booking{
-
-    -moz-box-sizing: content-box; /* Kilde: https://www.geeksforgeeks.org/how-to-make-input-and-select-elements-to-be-same-width/ */
-    -webkit-box-sizing:content-box; /* Kilde: https://www.geeksforgeeks.org/how-to-make-input-and-select-elements-to-be-same-width/ */
-    box-sizing: border-box;
-
-    border: 2px solid saddlebrown;
-    width: 500px;
-    height: 50px;
-    font-size: 20px;
-    background-color: beige;
-    text-align: center;
-    margin: 2px;
-}
-
-.sammenkomst{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 300px;
-    background-color: rgb(40, 40, 40);
-    color: beige;
-    margin-bottom: 100px;
-}
-
-.sammenkomst p{
-    width: 400px;
-    font-size: 25px;
-    display: block;
-    margin: auto;
-}
-.sammenkomstImg{
-    display: block;
-    border: rosybrown 3px solid;
-    margin: auto;
-    height: 200px;
-}
-#eventStorTxt{
-    color: beige;
-}
-#storSammenkomstTxt{
-    text-align: right;
-}
-:root {
-    font-size: 16px;
-    font-family: Helvetica;
-}
-body{
-    background-color: #343434;
-    margin: 0;
-}
-header {
-    height: 70px;
-}
-header nav{
-    background-color: #4e4e4e;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-evenly;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    z-index: 1;
-}
-
-main{
-    display: flex;
-    margin-top: 0px;
-    margin-bottom: 55px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-#footerTilPc:hover{
-    height: 150px;
+    height: 130px;
 }
 #footerTilPc{
     background-color: #4e4e4e;
@@ -242,7 +57,7 @@ main{
     position: fixed;
     bottom: 0;
     widtH: 100%;
-    height: 150px;
+    height: 130px;
     color: beige;
     padding: 5px;
 }
