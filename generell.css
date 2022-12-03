@@ -211,3 +211,12 @@ nav{
 .accessebility a{
     color: beige;
 }
+/* Pil som sender deg til registreringen */
+#span2{
+    grid-column:span 4;
+    height: 30px;
+    color: beige;
+    border-radius: 50%;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
