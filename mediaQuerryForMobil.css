@@ -69,8 +69,6 @@
     #menyside div a{
     }
 
-
-
     #footerTilMobil {
         visibility: visible;
     }
@@ -98,12 +96,6 @@
         border-radius: 10px;
         height: 70px;
     }
-}
-#span:hover{
-    rotate: 720deg;
-}
-#span{
-    transition: 2s;
 }
 
 /*Medium devices (landscape tablets, from 767px and up)*/
