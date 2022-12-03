@@ -2,9 +2,6 @@
     font-size: 16px;
     font-family: Helvetica;
 }
-html{
-    scroll-behavior: smooth;
-}
 body{
     background-color: #343434;
     margin: 0;
@@ -63,16 +60,6 @@ main{
     border-radius: 50%;
     font-size: 35px;
 }
-#span2{
-    grid-column:span 4;
-    height: 30px;
-    transition: 1s;
-    color: beige;
-    border-radius: 50%;
-    font-size: 35px;
-    margin-bottom: 10px;
-}
-
 #footerTilMobil{
     background-color: #4e4e4e;
     display: grid;
@@ -194,7 +181,7 @@ nav{
     text-align: center;
 }
 #bookingWaveTest{
-    width: 80%;
+    width: 60%;
 }
 #bookingWaveTest2{
     width: 80%;
