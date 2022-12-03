@@ -6,9 +6,9 @@
   body {
     font-family: Arial;
     padding: 20px;
-    background-color: #f8fd9f;
-    background-image: linear-gradient(135deg, #f8fd9f 0%, #cfd1f7 100%);
+    background-image: linear-gradient(275deg, #03100b 0%, #1f7d8a 100%);
   }
+  /* Her er koden tatt en del fra video på yt link: https://www.youtube.com/watch?v=_f036OpnuWo*/
 input[type="checkbox"]{
   -webkit-appearance: none;
   visibility: hidden;
@@ -20,18 +20,15 @@ input[type="checkbox"]{
   display: block;
   width: 100px;
   height: 50px;
-  background-color: #03100b;
-  background-image: linear-gradient(344deg, #03100b 0%, #1f7d8a 100%);
-
+  background-image: linear-gradient(135deg, #f8fd9f 0%, #cfd1f7 100%);
   cursor: pointer;
   border-radius: 40px;
   overflow: hidden;
   transition: ease-in-out 0.3s;
 }
 input[type="checkbox"]:checked~.check{
-  background-color:  #f8fd9f;
-  background-image: linear-gradient(135deg, #f8fd9f 0%, #cfd1f7 100%);
-  box-shadow: 0 0 0 5000px #092c3e;
+  background-image: linear-gradient(344deg, #03100b 0%, #1f7d8a 100%);
+  box-shadow: 0 0 0 5000px #cfd1f7 ;
 }
 .check:before{
   content: '';
@@ -39,7 +36,7 @@ input[type="checkbox"]:checked~.check{
   top: 2px;
   left: 2px;
   background-color: #f8fd9f;
-  background-image: linear-gradient(135deg, #f8fd9f 0%, #cfd1f7 100%);
+  background-image: linear-gradient(344deg, #03100b 0%, #1f7d8a 100%);
   width: 46px;
   height: 46px;
   border-radius: 50px;
@@ -54,7 +51,7 @@ input[type="checkbox"]:checked~.check:before{
   top: 2px;
   right: 2px;
   background-color: #03100b;
-  background-image: linear-gradient(344deg, #03100b 0%, #1f7d8a 100%);
+  background-image: linear-gradient(135deg, #f8fd9f 0%, #cfd1f7 100%);
   width: 46px;
   height: 46px;
   border-radius: 50px;
@@ -64,55 +61,44 @@ input[type="checkbox"]:checked~.check:before{
 input[type="checkbox"]:checked~.check:after{
   transform: translateX(0px);
 }
-
-
 .logo {
     width: 120px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-
   .header {
     font-size: 35px;
     color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
   }
-  
   .column {
     width: 50%;
     margin-left: 25%;
   }
-
   .intro{
     color: white;
     margin-bottom: 50px;  
   }
-
   p {
     line-height: 2;
   }
-
   .heading {
     font-size: 35px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
   }
-
     img {
     width: 100%;
     height: auto;
   }
-  
   .card {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
     border-radius: 25px;
   }
-  
-  
   .footer {
     padding: 20px;
     background: #ddd;
@@ -121,7 +107,6 @@ input[type="checkbox"]:checked~.check:after{
     line-height: 2;
     font-family: 'Montserrat', sans-serif;
   }
-  
   @media screen and (max-width: 800px) {
     .column {
       width: 100%;
