@@ -175,6 +175,20 @@ nav{
 #storSammenkomstTxt{
     text-align: right;
 }
+.accessebility{
+    width: 60%;
+    color: beige;
+    text-align: center;
+}
+#bookingWaveTest{
+    width: 60%;
+}
+#bookingWaveTest2{
+    width: 80%;
+}
+#bookingWaveTest3{
+    width: 80%;
+}
 .logo{
     height: 55px;
     border-radius: 30px;

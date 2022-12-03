@@ -42,18 +42,31 @@
 
 <main>
     <div><a href="index.html"> <img class="logo" id="logoTilMobil" src="bilderOgDiv/Logo.jpg"></a></div>
-    <div id="accessebility">
+
+    <div class="accessebility">
         <h3>Accessebility</h3>
         <p>
             For å teste nettsiden vår brukte vi WAVE Evaluation Tool.
             Der fikk vi for det meste opp kontrast feil og manglende alternativ tekst til bilder.
             Dette er enkelt å fikse, ved å finne bedre farge nyanser og legge til bildetekst.
         </p>
-        <img id="" src="bilderOgDiv/bookingWaveTest.png" alt="Bilde av feilene på booking siden">
+        <img id="bookingWaveTest" src="bilderOgDiv/bookingWaveTest.png" alt="Bilde av feilene på booking siden">
+        <p>
+            Videre fikk vi beskjed om at input-elementene manglet label.
+            Men ettersom at instruksen står i feltet valgte vi å ikke inkludere labels.
+        </p>
+        <img id="bookingWaveTest2" src="bilderOgDiv/bookingWaveTest2.png" alt="Bilde av manglende labels">
+        <p>
+            Til slutt fikk vi opp noen alerts av manglende labels, som vi valgte å ikke legge til.
+            I tillegg fikk vi opp "redundant link" på logoen, men det var hensikten bak linken.
+            Aller sist er den ene nav baren device dependent, men dette var hensikten bak denne naven,
+            ettersom den vanlige nav baren blir for bred for telefon.
+        </p>
+        <img id="bookingWaveTest3" src="bilderOgDiv/bookingWaveTest3.png" alt="Bilde av alerts">
     </div>
 
 
-    <div id="kilder">
+    <div id="kilder" class="accessebility">
         <h3>Kilder</h3>
         <p>Cunningham, S. Kaffekopp med burlap sekk av stekte bønner.</p>
         <a href="">https://wallpaperaccess.com/cafe</a>
