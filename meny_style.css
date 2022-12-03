@@ -11,7 +11,7 @@ html{
     overflow: hidden;
     justify-items: center;
 }
-.sider:nth-of-type(even){
+.sider:nth-of-type(odd){
     background-color: darkgray;
 }
 
@@ -19,19 +19,19 @@ html{
 fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
 .matmeny{
     border-collapse: collapse;
-    background-color: white;
+    background-color: beige;
     margin: 2em 2em;
     min-width: 80vw;
     text-align: left;
     border-radius: 20px 20px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px grey;
+    box-shadow: 0 0 20px beige;
     margin-left: auto;
     margin-right: auto;
 }
 .matmeny thead tr{
     background-color: #092c3e;
-    color: #fff;
+    color: beige;
     font-weight: bold;
 }
 .matmeny th,
@@ -39,19 +39,13 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
     padding: 12px 15px;
 }
 .matmeny tbody tr{
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid beige;
 }
 .matmeny tbody tr:nth-of-type(even){
-    background-color: lightgrey;
+    background-color: white;
 }
 .matmeny tbody tr:last-of-type{
     border-bottom: 2px solid #092c3e;
-}
-#dessert{
-
-}
-#kaffe{
-
 }
 #menyside #menymeny{
     font-size: 60px;
@@ -68,31 +62,31 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
 
 #menyside div a{
     text-decoration: none;
-    color: darkgray;
+    color: beige;
     border-radius: 0.5em;
     text-align: center;
     display: grid;
     padding: 5px 0px;
-    border: darkgray 4px solid;
-    box-shadow: inset 0 0 0.2em darkgray, 0 0 0.2em darkgray;
+    border: beige
+    4px solid;
+    box-shadow: inset 0 0 0.2em beige, 0 0 0.2em beige;
     position: relative;
 }
 #menyside div a:hover{
     color: black;
-    background-color: darkgray;
+    background-color: beige;
 }
 
 #menyside div a::before{
     pointer-events: none;
     content:'';
     position: absolute;
-    background: darkgray;
+    background: beige;
     top: 90%;
     left: 0;
     width: 100%;
     height: 100%;
     opacity: 0.1;
-
     transform: perspective(1.7em) rotateX( 40deg)
     scale(1, 0.35);
     filter: blur(1em);
@@ -101,7 +95,7 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
     pointer-events: none;
     content:'';
     position: absolute;
-    background: darkgray;
+    background: beige;
     top: 90%;
     left: 0;
     width: 100%;
@@ -111,4 +105,9 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
     transform: perspective(1.7em) rotateX( 40deg)
     scale(1, 0.35);
     filter: blur(1em);
+}
+@media only screen and (max-width: 767px){
+    #menyside #menymeny{
+        font-size: 30px;
+    }
 }
