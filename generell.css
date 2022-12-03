@@ -119,6 +119,7 @@ nav{
 #bookEvent{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 120px;
 }
 #registrerButton{
     background-color: rosybrown;
