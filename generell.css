@@ -193,6 +193,14 @@ nav{
 .tekstNav{
     text-decoration: none;
     color: beige;
+    letter-spacing: 3px;
+}
+.activeSite{
+    text-decoration: underline 2px;
+}
+.tekstNav:hover{
+    text-decoration: underline 3px crimson;
+    transition: 0.5s;
 }
 #sidebarKnapp{
     font-size: 40px;
