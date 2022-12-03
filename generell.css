@@ -50,7 +50,6 @@ main{
 }
 #footerTilPc:hover #span{
     rotate: 540deg;
-    box-shadow: red;
 
  }
 #span{

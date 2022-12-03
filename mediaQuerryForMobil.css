@@ -99,7 +99,12 @@
         height: 70px;
     }
 }
-
+#span:hover{
+    rotate: 720deg;
+}
+#span{
+    transition: 2s;
+}
 
 /*Medium devices (landscape tablets, from 767px and up)*/
 @media only screen and (min-width: 767px) {
