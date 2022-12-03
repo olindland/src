@@ -7,6 +7,10 @@
     header nav{
         visibility: hidden;
     }
+    /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay&fbclid=IwAR3W1BhhLqBYoHldd-mCnJrNhkauAQzSqKr4ISZT6G9X2jfJpEF2N7kj1ts
+    linken over ble brukt til å lage sidebar for mobiler
+    En del av linjene er delvis kopiert, men tilpasset for vår nettsid
+    under ser dere css'en for sidebaren*/
     #sidebarKnapp{
         position: fixed;
         z-index: 1;
