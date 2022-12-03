@@ -9,6 +9,7 @@ body{
 header {
     height: 70px;
 }
+/* Navigasjonsbar */
 header nav{
     background-color: #4e4e4e;
     display: flex;
@@ -33,7 +34,7 @@ main{
 #footerTilPc:hover{
     height: 155px;
 }
-
+/* Footer styles slik at den ser oversiktlig ut */
 #footerTilPc{
     background-color: #4e4e4e;
     display: grid;
@@ -52,6 +53,7 @@ main{
     rotate: 180deg;
 
  }
+/* Animasjon i footer ikonet */
 #span{
     grid-column:span 4;
     height: 30px;
@@ -60,6 +62,7 @@ main{
     border-radius: 50%;
     font-size: 35px;
 }
+/* Egen footer til mobil som ikke krever hover */
 #footerTilMobil{
     background-color: #4e4e4e;
     display: grid;
@@ -90,6 +93,7 @@ nav{
     filter: blur(3px);
     -webkit-filter: blur(3px);
 }
+/* Velkommen tekst med design */
 #velkommenTxt{
     border: 3px solid beige;
     background-color: #343434;
@@ -124,15 +128,7 @@ nav{
     background-color: rosybrown;
     width: 200%;
 }
-@media (max-width: 1100px){
-    #bookEvent{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    #registrerButton{
-        width: 100%;
-    }
-}
+
 .booking{
 
     -moz-box-sizing: content-box; /* Kilde: https://www.geeksforgeeks.org/how-to-make-input-and-select-elements-to-be-same-width/ */
@@ -147,7 +143,7 @@ nav{
     text-align: center;
     margin: 2px;
 }
-
+/* Style for "reklamen" for hvorfor man bør booke her */
 .sammenkomst{
     display: grid;
     grid-template-columns: 1fr 1fr;
