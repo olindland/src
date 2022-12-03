@@ -75,6 +75,9 @@
     #footerTilPc{
         visibility: hidden;
     }
+    #bookEvent{
+        margin-bottom: 50px;
+    }
     .booking{
         width: 300px;
         font-size: 15px;
