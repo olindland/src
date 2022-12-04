@@ -47,8 +47,10 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
 .matmeny tbody tr:last-of-type{
     border-bottom: 2px solid #092c3e;
 }
+
 #menyside #menymeny{
     font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
     margin: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
