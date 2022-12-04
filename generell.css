@@ -9,6 +9,12 @@ body{
 header {
     height: 70px;
 }
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 /* Navigasjonsbar */
 header nav{
     background-color: #4e4e4e;
@@ -109,6 +115,7 @@ nav{
     text-align: center;
     line-height: 2.5;
     border-radius: 20px;
+
 }
 #omOss {
     color: beige;
@@ -117,6 +124,7 @@ nav{
 }
 #omOss h3 {
     font-size: 40px;
+    
 }
 
 #bookEvent{
@@ -150,12 +158,12 @@ nav{
     height: 300px;
     background-color: rgb(40, 40, 40);
     color: beige;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .sammenkomst p{
     width: 400px;
-    font-size: 25px;
+    font-size: 23px;
     display: block;
     margin: auto;
 }
