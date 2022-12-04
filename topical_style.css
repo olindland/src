@@ -66,6 +66,7 @@ input[type="checkbox"]:checked~.check:after{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 30px;
   }
   .header {
     font-size: 35px;
