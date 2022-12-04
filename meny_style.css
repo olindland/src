@@ -56,6 +56,7 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
     position: relative;
     bottom: 60%;
     margin-bottom: 100px;
+    z-index: 0;
 }
 
 #menyside div a{
