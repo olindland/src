@@ -47,6 +47,7 @@
 
     .overlay a:hover, .overlay a:focus {
         color: black;
+        z-index: 3;
     }
 
     .overlay .closebtn {
