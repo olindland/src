@@ -56,7 +56,6 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
     position: relative;
     bottom: 60%;
     margin-bottom: 100px;
-    z-index: 0;
 }
 
 #menyside div a{
@@ -90,7 +89,7 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
     scale(1, 0.35);
     filter: blur(1em);
 }
-#menyside div a::before {
+#menyside div a:hover::before {
     pointer-events: none;
     content: '';
     position: absolute;
