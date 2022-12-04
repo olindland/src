@@ -223,6 +223,7 @@ nav{
 #span2{
     grid-column:span 4;
     height: 30px;
+    transition: 1s;
     color: beige;
     border-radius: 50%;
     font-size: 35px;
