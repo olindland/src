@@ -214,11 +214,12 @@ header h3::after{
     width: 0%;
     display: block;
 }
-
+.activeSite{
+   color: #092c3e;
+}
 header h3:hover::after{
     width: 100%;
 }
-
 #sidebarKnapp{
     font-size: 40px;
     cursor: pointer;
