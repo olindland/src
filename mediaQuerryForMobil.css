@@ -13,7 +13,7 @@
     under ser dere css'en for sidebaren*/
     #sidebarKnapp{
         position: fixed;
-        z-index: 1;
+        z-index: 3;
     }
 
         .overlay {

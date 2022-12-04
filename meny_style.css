@@ -17,7 +17,7 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
 .matmeny{
     border-collapse: collapse;
     background-color: beige;
-    margin: 2em 2em;
+    margin: 20px 20px;
     min-width: 80vw;
     text-align: left;
     border-radius: 20px 20px 0 0;
@@ -55,7 +55,7 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
     align-items: center;
     position: relative;
     bottom: 60%;
-        margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 #menyside div a{
@@ -105,4 +105,7 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
     filter: blur(1em);
 }
 @media only screen and (max-width: 767px){
+    #menyside #menymeny{
+        font-size: 30px;
+    }
 }
