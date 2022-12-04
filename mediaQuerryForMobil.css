@@ -70,8 +70,6 @@
         flex-direction: column;
         justify-content: space-evenly;
     }
-    #menyside div a{
-    }
 
     #footerTilMobil {
         visibility: visible;
