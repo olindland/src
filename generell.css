@@ -204,13 +204,21 @@ nav{
     color: beige;
     letter-spacing: 3px;
 }
-.activeSite{
-    text-decoration: underline 2px;
-}
-.tekstNav:hover{
-    text-decoration: underline 3px crimson;
+
+header h3::after{
+    content: '';
+    background: #ffffff;
     transition: 0.5s;
+    margin: auto;
+    height: 2px;
+    width: 0%;
+    display: block;
 }
+
+header h3:hover::after{
+    width: 100%;
+}
+
 #sidebarKnapp{
     font-size: 40px;
     cursor: pointer;
