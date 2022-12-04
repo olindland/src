@@ -1,7 +1,4 @@
 /* ------------Her er css for menysiden--------------*/
-html{
-    scroll-behavior: smooth;
-}
 #menyside{
     text-align: center;
 }
@@ -58,8 +55,7 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
     align-items: center;
     position: relative;
     bottom: 60%;
-    margin-bottom: 100px;
-    z-index: -1;
+        margin-bottom: 100px;
 }
 
 #menyside div a{
@@ -109,7 +105,4 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
     filter: blur(1em);
 }
 @media only screen and (max-width: 767px){
-    #menyside #menymeny{
-        font-size: 30px;
-    }
 }
