@@ -14,6 +14,7 @@
 
 /* Her er en del av linjene lært og delvis kopiert (men tilpasset eget behov
 fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
+/* Her er css for tabellene på menysiden*/
 .matmeny{
     border-collapse: collapse;
     background-color: beige;
@@ -44,7 +45,7 @@ fra denne nettsiden: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-
 .matmeny tbody tr:last-of-type{
     border-bottom: 2px solid #092c3e;
 }
-
+/* Her er css for de tre Hovedmenyene på toppen av menysiden, som tar deg direkte til de ulike menyene */
 #menyside #menymeny{
     font-size: 60px;
     font-family: 'Montserrat', sans-serif;
