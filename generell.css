@@ -231,9 +231,6 @@ header h3:hover::after{
 .E-post{
     color: beige;
 }
-.linkTilIcon{
-    target: "_blank";
-}
 .accessebility a{
     color: beige;
 }
