@@ -215,14 +215,10 @@ header h3::after{
     display: block;
 }
 .activeSite{
-
-
+    color: orangered;
 }
 header h3:hover::after{
     width: 100%;
-}
-header h3:hover:{
-    scale: 1.9;
 }
 #sidebarKnapp{
     font-size: 40px;
